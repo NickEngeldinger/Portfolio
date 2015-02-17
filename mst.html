@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mustache Test</title>
+</head>
+<body>
+	<h1>Mustache Test</h1>
+
+	<div id="work-list"></div>
+
+	<!-- TEMPLATE -->
+	<script id="work-template" type="text/x-handlebars-template">
+		<div class="work">
+			{{#workSamples}}
+				<a href="#" >
+					<img src="{{ src }}" alt="{{ alt }}" />
+					<span>{{ title }}</span>
+				</a>
+			{{/workSamples}}
+		</div>
+	</script>
+
+	<script src="js/libs/handlebars-v2.0.0.js"></script>
+	<script src="js/mst.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- inject:svg -->
+	<!-- endinject -->
+	<header>
+		<div class="header">
+			<div class="intro">
+				<h1>
+					Nick Engeldinger 
+					<cite>Front End Developer</cite>
+					<span class="subtitle"></span>
+				</h1>
+			</div>
+		</div>			
+	</header>
+	<nav>
+		<div class="nav"></div>
+	</nav>
+	<div class="spacer">
+			<p>
+				Don't ask what the world needs.<br />
+				Ask what makes you come alive and go do it.
+				<br />
+				<a href="http://en.wikipedia.org/wiki/Howard_Thurman" target="blank">Howard Thurman</a>
+			</p>
+	</div>
+	<section class="my-work"></section>
+	<section class="work-samples"></section>
+	<footer>
+		<div class="footer"></div>
+	</footer>
+
+	<script id="link-template" type="text/x-handlebars-template">
+		{{#links}}
+			<div class="info">
+				<div class="circle">
+					<div class="content">
+						<a href="" class="{{name}}">
+							<svg class="icon {{ name }}-icon" viewBox="0 0 100 100">
+								<use xlink:href="#icon-{{ name }}"></use>
+								<br>
+								{{ content }}
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		{{/links}}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="js/libs/handlebars-v2.0.0.js"></script>
+	<script src="js/libs/typed.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/animations.js"></script>
+</body>
+</html>

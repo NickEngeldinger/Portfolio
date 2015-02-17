@@ -1,0 +1,14 @@
+Fonts: League of Movable Type "League Gothic"
+
+Images:
+
+SVG Icons: 
+
+Color pallette: http://www.colourlovers.com/palette/795200/Pacific_Northwest
+
+CSS Preprocessing: Stylus + nib
+CSS Framework: Jeet + Axis + Rupture
+
+Task Runner: Gulp + {jshint + concat + ugligy} + {svgstore + rename + inject}
+
+Templating: Handlebars.js

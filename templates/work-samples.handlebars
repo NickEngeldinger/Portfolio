@@ -1,0 +1,46 @@
+<div class="solutions">
+	<div class="page-header">
+		<span class="return-work">^</span>
+		<h2>{{ title }}</h2>
+		<span class="page-controls">
+			<span class="prev hide">
+				<
+			</span>
+			Page
+			<span class="page-number"></span>
+			/
+			<span class="total-pages"></span>
+			<span class="next">
+				>
+			</span>
+		</span>
+	</div>
+	<dl>
+		{{#solutions}}
+			<dt class="hide">
+				<div class="prob">
+					<h3>Problem</h3>
+					<p>{{ problem.copy }}</p>
+				</div>
+				<figure>
+					<img class="example-img" src="{{ problem.img }}" />
+					<figcaption>
+						{{ problem.caption }}
+					</figcaption>
+				</figure>
+			</dt>
+			<dd class="hide">
+				<div class="sol">
+					<h3>Solution</h3>
+					<p>{{ solution.copy }}</p>
+				</div>
+				<figure>
+					<img class="example-img" src="{{ solution.img }}" />
+					<figcaption>
+						{{ solution.caption }}
+					</figcaption>
+				</figure>
+			</dd>
+		{{/solutions}}
+	</dl>
+</div>

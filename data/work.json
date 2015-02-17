@@ -1,0 +1,36 @@
+{"heading":"Work Samples", "workSamples": [
+					{ 	"title": "Motorvana",
+						"alt": "Motorvana.com redesign",
+						"src": "/img/motorvana/mv-home.jpg",
+						"slug": "motorvana"
+					},{
+					 	"title": "Dream Marriage",
+						"alt": "Dream-marriage.com development",
+						"src": "/img/dream-marriage/dm-home.jpg",
+						"slug": "dream-marriage"
+			   		},{
+			   			"title": "Sample 3",
+			   			"alt": "Sample 3",
+			   			"src": "http://lorempixel.com/300/200"
+			   		},{
+			   			"title": "Sample 4",
+			   			"alt": "Sample 4",
+			   			"src": "http://lorempixel.com/300/200"
+			   		},{
+			   			"title": "Sample 5",
+			   			"alt": "Sample 5",
+			   			"src": "http://lorempixel.com/300/200"
+			   		},{
+			   			"title": "Sample 6",
+			   			"alt": "Sample 6",
+			   			"src": "http://lorempixel.com/300/200"
+			   		},{
+			   			"title": "Sample 7",
+			   			"alt": "Sample 7",
+			   			"src": "http://lorempixel.com/300/200"
+			   		},{
+			   			"title": "Sample 8",
+			   			"alt": "Sample 8",
+			   			"src": "http://lorempixel.com/300/200"
+			   		}
+]}
